@@ -1,0 +1,167 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+:root
+{
+    --black: #080808;
+    --gray: #585555;
+    --Purple: #7A1743;
+    --white: #fff;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    /* font-family: 'Zen Kaku Gothic Antique', sans-serif; */
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav
+{
+    background-color: var(--Purple);
+    color: var(--white);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .nav .container
+{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.nav img
+{
+    width: 3rem;
+    padding-right: 1rem;
+}
+.nav span
+{
+    font-size: 3rem;
+}
+
+footer
+{
+    background-color: var(--black);
+    padding: 2rem;
+}
+.lists
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto;
+    gap: .5rem;
+    padding: 1rem 0;
+
+}
+a
+{
+    padding: .5rem 0;
+}
+
+#title
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
+}
+.lists a, .lists p
+{
+    color: var(--white);
+    font-size: 1rem;
+}
+.lists a:hover, .linkOut:hover, .terms a:hover, .terms span:hover
+{
+    color: var(--Purple);
+}
+span
+{
+    font-size: .6rem;
+    padding-left: .5rem;
+}
+.info a
+{
+    display: flex;
+    flex-wrap: column;
+    align-items: center;
+}
+.input
+{
+    padding: 1rem 0;
+}
+.inputEmail
+{
+    height: 4.4vh;
+    border-radius: 5px;
+    border: none;
+}
+.parag
+{
+    padding: 1rem 0;
+}
+#styleButton
+{
+    color: var(--white);
+    background-color: var(--Purple);
+    padding: .5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: .5rem 0;
+}
+.socialIcon
+{
+    display: inline-flex;
+}
+.socialIcon a
+{
+    padding-right: 1rem;
+}
+.socialIcon a i
+{
+    font-size: 1.2rem;
+    color: var(--white);
+    background-color: var(--Purple);
+    border-radius: 50%;
+    /* padding: 1rem; */
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialIcon a i:hover
+{
+    background-color: var(--white);
+    color: var(--gray);
+}
+.companyinfo
+{
+    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    padding: .5rem 0;
+    width: 100%;
+    border-top: 1px solid  var(--gray);
+    border-bottom: 1px solid var(--gray);
+    margin: 1rem 0;
+}
+.linkOut
+{
+    text-decoration: underline;
+    color: var(--white)
+}
+.companyinfo p, .companyinfo span
+{
+    padding-right:1rem;
+}
+.terms a, .terms span
+{
+    color: var(--white);
+    padding-right:1rem;
+}
+
